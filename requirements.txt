@@ -1,0 +1,13 @@
+streamlit
+groq
+chromadb
+sentence-transformers
+langchain
+langchain-community
+langchain-core
+pdf2image
+pytesseract
+python-dotenv
+pypdf
+docx2txt
+Pillow
