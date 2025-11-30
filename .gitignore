@@ -1,0 +1,85 @@
+# -------------------------
+# Python ignores
+# -------------------------
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+venv/
+.env/
+ENV/
+.venv/
+
+# -------------------------
+# Backend uploads (user files) — DO NOT COMMIT
+# Keep folder with .gitkeep
+# -------------------------
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# -------------------------
+# Vectorstore / Chroma DB — DO NOT COMMIT
+# Keep folder with .gitkeep
+# -------------------------
+backend/chroma_db/*
+!backend/chroma_db/.gitkeep
+
+# Alternate chroma folders (just in case)
+chroma/
+.chroma/
+*.chromadb/
+
+# -------------------------
+# Logs
+# -------------------------
+logs/
+*.log
+
+# -------------------------
+# Streamlit
+# -------------------------
+frontend/.streamlit/
+
+# -------------------------
+# Environment & config
+# -------------------------
+.env
+*.env
+config.json
+
+# -------------------------
+# OS / IDE junk
+# -------------------------
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.code-workspace
+
+# -------------------------
+# Build / Dist
+# -------------------------
+dist/
+build/
+*.egg-info/
+
+# -------------------------
+# OCR tools (Tesseract, Poppler folders)
+# -------------------------
+tesseract-ocr/
+poppler-*/
+*.exe
+
+# -------------------------
+# Temp image files (from pdf2image)
+# -------------------------
+*.ppm
+*.pbm
+tmp/
+temp/
+cache/
+
+vectorstore/
+!vectorstore/.gitkeep
+
